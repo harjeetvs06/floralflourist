@@ -15,7 +15,9 @@ import {
 } from 'lucide-react';
 import './style.css';
 
-const API = import.meta.env.VITE_API_URL || 'http://localhost:4000/api';
+const API =
+  import.meta.env.VITE_API_URL ||
+  (window.location.hostname === 'localhost' ? 'http://localhost:4000/api' : '/api');
 
 function App() {
   const [token, setToken] = useState(localStorage.getItem('bloom_token') || '');
