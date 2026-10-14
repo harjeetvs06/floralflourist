@@ -1,0 +1,18 @@
+[
+  {
+    "id": "8ac69608-f1ca-498a-8663-e5feb66f3c26",
+    "name": "Harjeet",
+    "email": "harjeetvs89@gmail.com",
+    "passwordHash": "$2a$12$w5Bo/W82W/STMDAi9JtQo.m.2Fm6GoZQOjDUV9c/BOjgMIIeeHXnq",
+    "role": "farmer",
+    "createdAt": "2026-10-14T09:53:49.236Z"
+  },
+  {
+    "id": "8a40ee23-ef3b-4fa1-a8b0-19c19b3d40c2",
+    "name": "Atul",
+    "email": "atulkumar@gmail.com",
+    "passwordHash": "$2a$12$/FAXEBwP6JDniG65AjSJ8uTvuGMrzA7TBdqwarLvK76FtSWSPT8wC",
+    "role": "buyer",
+    "createdAt": "2026-10-14T10:10:15.162Z"
+  }
+]
